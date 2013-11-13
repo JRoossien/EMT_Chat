@@ -1,0 +1,14 @@
+name: Chat
+main: net.clashwars.chat.bukkit.ChatPlugin
+version: '0.1'
+author: ClashWars-worstboy32
+description: EMT chat plugin for global chat.
+commands:
+  global:
+    description: Send a global message.
+    usage: /<command> <msg>
+    aliases: [shout,g]
+  chat:
+    description: Reload configuration.
+    usage: /<command> [reload]
+    aliases: [emtchat]
